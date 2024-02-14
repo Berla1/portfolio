@@ -167,7 +167,7 @@ color: var(--text-highlight);
 
 @media(max-width: 1200px){
     img{
-        width: 50%;
+        width: 60%;
     }
 
     .cabecalho_menu{
