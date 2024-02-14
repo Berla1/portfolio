@@ -54,7 +54,7 @@ border: none;
 /* Adicionar mais estilos conforme necessário */
 }
 img {
-width: 45%;
+width: 35%;
 }   
 
 .destaque-titulo{
@@ -70,7 +70,7 @@ color: var(--text-highlight);
 }
 
 .conteudo{
-    width: 50%;
+    width: 100%;
 }
 
 .titulo{
