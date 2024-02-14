@@ -165,6 +165,15 @@ color: var(--text-highlight);
     background: var(--cor-hover);
 }
 
+.link_sobremim{
+    text-decoration: none;
+    color: var(--text-highlight);
+}
+
+.link_sobremim:hover{
+    color: var(--cor-hover);
+}
+
 @media(max-width: 1200px){
     img{
         width: 60%;
