@@ -76,7 +76,7 @@ color: var(--text-highlight);
 .titulo{
     font-family: var(--fonte-krona);
     font-size: 2.25rem;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .texto{
@@ -141,7 +141,7 @@ color: var(--text-highlight);
     color: var(--text-highlight);
     font-family: var(--fonte-montserrat);
     font-size: 1.5rem;
-    padding: 25px;
+    padding: 1em 0;
 }
 
 .link{
@@ -176,6 +176,12 @@ color: var(--text-highlight);
 
 .curriculo__texto{
     padding: 1em 0;
+}
+
+
+
+.curriculo__item{
+    padding: 0.5em 0;
 }
 
 @media(max-width: 1200px){
