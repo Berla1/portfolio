@@ -5,11 +5,12 @@ type TecnologiaProps = {
 
 const Tecnologia: React.FC<TecnologiaProps> = ({ imageSrc, altText }) => {
   return (
-    <img
-      src={imageSrc}
-      alt={altText}
-      className="transition-transform duration-300 group-hover:scale-120 w-10"
-    />
+      <img
+        src={imageSrc}
+        alt={altText}
+        className="transition-transform duration-300 hover:scale-120 w-10 md:w-14"
+      />
+  
   );
 };
 
