@@ -4,7 +4,7 @@ import RedeBotao from "./RedeBotao";
 import { FaLinkedin } from "react-icons/fa";
 const Home = () => {
   return (
-    <section className="flex h-screen text-white  md:justify-evenly md:items-center gap-10">
+    <section className="flex h-screen text-white pb-20 md:justify-evenly md:items-center gap-10">
       <div className="md:w-1/2 flex flex-col text-2xl md:text-6xl">
         <h1 className="bg-gradient-to-r from-blue-600 via-red-500 to-indigo-400 inline-block text-transparent bg-clip-text">
           Opa! tudo bem?
