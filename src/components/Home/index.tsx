@@ -11,18 +11,14 @@ const Home = () => {
         </h1>
         <h2>Me chamo Gustavo Berlanga</h2>
         <h2 className="text-lg pl-1 font-bold mt-2">Fullstack Developer</h2>
-
         <div className="flex gap-4 mt-4 text-2xl">
          <a href="https://github.com/Berla1" target="_blank"><RedeBotao Icone={<FaGithub />} Texto="Github" /></a>
          <a href="https://www.linkedin.com/in/gustavo-berlanga/" target="_blank"><RedeBotao Icone={<FaLinkedin/>} Texto="Linkedln" /></a>
         </div>
       </div>
-
       <div className="bg-gradient-to-t from-gray-600 rounded-3xl ">
         <img src={eu} alt="eu" className="md:w-90 rounded-3xl" />
       </div>
-
-      {/* <p className="text-base font-light">Com 19 anos em busca de uma primeira experiência profissional no mercado de trabalho. No 3º período de Engenharia de Software na FIAP. Tive o meu primeiro contato com programação em 2019, desde então busco evoluir meus conhecimentos. Atualmente focado em aprimorar habilidades em back-end. </p> */}
     </section>
   );
 };
