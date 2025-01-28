@@ -13,7 +13,7 @@ const Tecnologias = () => {
   return (
     <section className="flex flex-col gap-4 bg-[#222] p-4 mt-5 rounded-2xl items-center justify-center"> 
       <h2 className="text-2xl text-white font-bold py-4">Minhas tecnologias</h2>
-      <ul className="flex items-center h-full gap-4 flex-wrap">
+      <ul className="flex items-center justify-evenly h-full gap-10 flex-wrap">
         <li>
           <Tecnologia imageSrc={TypeScript} altText="Typescript" />
         </li>

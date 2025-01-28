@@ -1,2 +1,39 @@
 @import "tailwindcss";
 @tailwind utilities;
+
+.links::after, .links-ativo::after {
+    content: ' ';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #155dfc;
+    background: linear-gradient(180deg, #155dfc 10%, #fb2c36 90%);
+    border-radius: 10px;
+    transition: width 0.2s ease-in;
+    margin: auto;
+  }
+  
+  .links:hover::after, .links-ativo::after {
+    width: 100%;
+  }
+
+html::-webkit-scrollbar {
+  width: 12px; 
+}
+
+html::-webkit-scrollbar-track {
+  background: #111; 
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px; 
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+html {
+  scrollbar-width: thin; 
+  scrollbar-color: #888 #111; 
+}

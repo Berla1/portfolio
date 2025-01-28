@@ -14,7 +14,7 @@ const Home = () => {
 
         <div className="flex gap-4 mt-4 text-2xl">
          <a href="https://github.com/Berla1" target="_blank"><RedeBotao Icone={<FaGithub />} Texto="Github" /></a>
-         <a href="https://www.linkedin.com/in/gustavo-berlanga/" target="_blank"><RedeBotao Icone={<FaLinkedin/>} Texto="Linkedin" /></a>
+         <a href="https://www.linkedin.com/in/gustavo-berlanga/" target="_blank"><RedeBotao Icone={<FaLinkedin/>} Texto="Linkedln" /></a>
         </div>
       </div>
 
