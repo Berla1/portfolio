@@ -35,8 +35,8 @@ const CardProjeto = ({
   youtubeLink,
 }: CardProjetoProps) => {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-5 bg-[#222] rounded-2xl relative">
-      <div className="flex gap-3 absolute  md:top-5 md:right-5">
+    <div className="flex flex-col md:flex-row md:items-center gap-5 bg-[#222] rounded-2xl relative">
+      <div className="hidden md:flex gap-3 absolute md:top-5 md:right-5">
         <img src={tecnologia1} alt=""/>
         <img src={tecnologia2} alt=""/>
         <img src={tecnologia3} alt=""/>
@@ -50,7 +50,7 @@ const CardProjeto = ({
           className="w-full h-full object-cover md:rounded-l-2xl"
         />
       </div>
-      <div className="text-white md:w-2/3 md:px-0 mb-5 p-4">
+      <div className="text-white md:w-2/3 md:px-0 md:mb-5 p-4">
         <h1 className="text-4xl my-10">{nomeProjeto}</h1>
         <p className="mb-7 md:w-9/12">{descricaoProjeto}</p>
         <div className="flex gap-5">
@@ -71,6 +71,12 @@ const CardProjeto = ({
           </span>
         </div>
       </div>
+      <div className="flex justify-start md:hidden gap-3 pl-5 pb-5">
+            <img src={tecnologia1} alt="" />
+            <img src={tecnologia2} alt="" />
+            <img src={tecnologia3} alt="" />
+            <img src={tecnologia4} alt=""/>
+          </div>
     </div>
   );
 };
