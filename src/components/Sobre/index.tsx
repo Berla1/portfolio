@@ -15,12 +15,12 @@ import curriculo from "../../assets/Currículo Gustavo Berlanga.pdf";
 
 const Sobre = () => {
   return (
-    <section className="flex h-screen text-white md:justify-evenly md:items-center gap-10">
+    <section className="flex h-screen text-white md:justify-evenly md:items-center md:gap-10">
       <div>
-        <img src={pc} alt="eu" className="w-120" />
+        <img src={pc} alt="eu" className="w-120 hidden md:block" />
       </div>
       <div className="flex flex-col md:w-1/2">
-        <h2 className="text-6xl mb-10">Sobre</h2>
+        <h2 className="text-4xl md:text-6xl mb-10">Sobre</h2>
         <p className="text-xl font-light text-white ">
           Sou um estudante com 19 anos em busca de uma primeira experiência
           profissional no mercado de trabalho. No 3º período de Engenharia de
@@ -29,7 +29,7 @@ const Sobre = () => {
         </p>
         <div>
           <h3 className="my-3">Minhas tecnologias: </h3>
-          <ul className="flex items-center h-full gap-5 flex-wrap mb-8  ">
+          <ul className="flex items-center justify-start gap-5 flex-wrap mb-8">
             <li>
               <Tecnologia imageSrc={TypeScript} altText="Typescript" toolTip="Typescript"/>
             </li>
