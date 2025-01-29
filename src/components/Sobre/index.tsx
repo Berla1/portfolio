@@ -1,21 +1,21 @@
 import pc from "../../assets/mexendo-pc.svg";
 import Tecnologia from "../../components/Tecnologia";
-import TypeScript from "../../assets/logo-typescript.svg";
-import JavaScript from "../../assets/logo-javascript.svg";
-import React from "../../assets/logo-react.svg";
-import Java from "../../assets/logo-java.svg";
-import MySQL from "../../assets/logo-mysql.svg";
-import Python from "../../assets/logo-pyhton.svg";
-import Tailwind from "../../assets/logo-tailwind.svg";
-import HTML from "../../assets/logo-html.svg";
-import CSS from "../../assets/logo-css.svg";
+import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
+import JavaScript from "../../assets/tecnologias/logo-javascript.svg";
+import React from "../../assets/tecnologias/logo-react.svg";
+import Java from "../../assets/tecnologias/logo-java.svg";
+import MySQL from "../../assets/tecnologias/logo-mysql.svg";
+import Python from "../../assets/tecnologias/logo-python.svg";
+import Tailwind from "../../assets/tecnologias/logo-tailwind.svg";
+import HTML from "../../assets/tecnologias/logo-html.svg";
+import CSS from "../../assets/tecnologias/logo-css.svg";
 import RedeBotao from "../Home/RedeBotao";
 import { GoArrowUpRight } from "react-icons/go";
 import curriculo from "../../assets/Currículo Gustavo Berlanga.pdf";
 
 const Sobre = () => {
   return (
-    <section className="flex h-screen text-white md:justify-evenly md:items-center md:gap-10">
+    <section className="flex h-screen text-white md:justify-evenly md:items-center md:gap-10" id="sobre">
       <div>
         <img src={pc} alt="eu" className="w-120 hidden md:block" />
       </div>

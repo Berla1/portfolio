@@ -6,7 +6,7 @@ import Sobre from './components/Sobre'
 function App() {
   return (
     <>
-    <main className='p-5 scroll-smooth'>
+    <main className='px-3 md:px-0'>
       <Header/>
       <Home/>
       <Sobre/>

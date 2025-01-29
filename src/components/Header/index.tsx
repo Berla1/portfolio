@@ -1,10 +1,10 @@
 const Header = () => {
   return (
-    <header className="flex pl-1 md:justify-evenly md:w-1/4 md:pl-10">
+    <header className="flex md:z-21 bg-[#111] fixed pl-1 md:justify-evenly w-full md:pl-10">
       <nav>
-        <ul className="flex gap-5 pt-4 text-white">
-          <li className="links cursor-pointer">Home</li>
-          <li className="links cursor-pointer">Sobre</li>
+        <ul className="flex gap-5 py-6 md:py-8 text-white">
+          <a href="#home"><li className="links cursor-pointer">Home</li></a>
+          <a href="#sobre"><li className="links cursor-pointer">Sobre</li></a>
           <li className="links cursor-pointer">Projetos</li>
         </ul>
       </nav>
