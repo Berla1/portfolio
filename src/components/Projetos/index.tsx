@@ -4,6 +4,8 @@ import capaCarrinho from "../../assets/imagens-projetos/capa-carrinho-iot.svg";
 import capaCardapio from "../..//assets/imagens-projetos/capa-cardapio.svg";
 import capaLandingPage from "../../assets/imagens-projetos/capa-landing-page.svg";
 import capaMahindra from "../../assets/imagens-projetos/capa-mahindra.svg";
+import capaBuscador from "../../assets/imagens-projetos/capa-buscador-cep.svg";
+import capaRush from "../../assets/imagens-projetos/capa-rush.svg";
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -25,7 +27,7 @@ const Projetos = () => {
         <CardProjeto
           fotoProjeto={capaCarrinho}
           nomeProjeto="Carrinho controlado por gestos"
-          descricaoProjeto="Este projeto implementa um sistema de controle baseado em gestos da mão usando Mediapipe, OpenCV, e MQTT para controlar motores e um servo via comandos remotos. Com uma câmera, gestos são detectados em tempo real para realizar ações como mover um motor ou ajustar o ângulo de um servo. Usando Python e C++ para a comunicação entre os dispositivos. Realizado como projeto acadêmico."
+          descricaoProjeto="Implementa um sistema de controle baseado em gestos da mão usando Mediapipe, OpenCV, e MQTT. Com uma câmera, gestos são detectados em tempo real para realizar ações como mover um motor ou ajustar o ângulo de um servo. Usando Python e C++ para a comunicação entre os dispositivos. Realizado como projeto acadêmico."
           githubBotao={false}
           githubLink="https://github.com/Berla1/hand-gesture-control"
           youtubeBotao={false}
@@ -60,6 +62,17 @@ const Projetos = () => {
         />
 
         <CardProjeto
+          fotoProjeto={capaRush}
+          nomeProjeto="Rush e-commerce"
+          descricaoProjeto="Uma aplicação de e-commerce voltada para artigos esportivos. Feito utilizando React utilizando styled-components, com layout responsivo e moderno. Realizado como projeto acadêmico."
+          githubBotao={false}
+          githubLink="https://github.com/E-fficency/rush"
+          deployBotao={false}
+          deployLink="https://e-fficency.github.io/rush/"
+          tecnologia1={React}
+        />
+
+        <CardProjeto
           fotoProjeto={capaPortfolio}
           nomeProjeto="Meu portfólio pessoal"
           descricaoProjeto="Portfólio desenvolvido com TypeScript e TailwindCSS. 
@@ -71,6 +84,18 @@ const Projetos = () => {
           githubBotao={false}
           githubLink="https://github.com/Berla1/portfolio"
         />
+
+        <CardProjeto
+          fotoProjeto={capaBuscador}
+          nomeProjeto="Buscador de CEP"
+          descricaoProjeto="uma aplicação desenvolvida em React que permite aos usuários consultar informações de endereço a partir de um CEP fornecido. A aplicação consome APIs para obter dados como logradouro, bairro, cidade e estado relacionados ao CEP inserido. Além disso, valida o formato do CEP informado pelo usuário."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/busca-cep"
+          deployBotao={false}
+          deployLink="https://busca-cep-khaki.vercel.app"
+          tecnologia1={React}
+        />
+
         <CardProjeto
           fotoProjeto={capaLandingPage}
           nomeProjeto="Landing Page responsiva"
