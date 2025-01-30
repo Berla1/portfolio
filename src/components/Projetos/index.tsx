@@ -3,6 +3,7 @@ import capaPortfolio from "../../assets/imagens-projetos/capa-portfolio.svg";
 import capaCarrinho from "../../assets/imagens-projetos/capa-carrinho-iot.svg";
 import capaCardapio from "../..//assets/imagens-projetos/capa-cardapio.svg";
 import capaLandingPage from "../../assets/imagens-projetos/capa-landing-page.svg";
+import capaMahindra from "../../assets/imagens-projetos/capa-mahindra.svg";
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -10,7 +11,8 @@ import Python from "../../assets/tecnologias/logo-python.svg";
 import Java from "../../assets/tecnologias/logo-java.svg";
 import MySQL from "../../assets/tecnologias/logo-mysql.svg";
 import HTML5 from "../../assets/tecnologias/logo-html.svg";
-import SASS from '../../assets/tecnologias/logo-sass.svg';
+import SASS from "../../assets/tecnologias/logo-sass.svg";
+import React from "../../assets/tecnologias/logo-react.svg";
 
 const Projetos = () => {
   return (
@@ -46,15 +48,15 @@ const Projetos = () => {
         />
 
         <CardProjeto
-          fotoProjeto={capaLandingPage}
-          nomeProjeto="Landing Page responsiva"
-          descricaoProjeto="Lading page responsiva construida em HTML5 e SCSS. Projeto oferecendo um design responsivo e moderno com vizualição em dispositivos móveis e desktops."
+          fotoProjeto={capaMahindra}
+          nomeProjeto="Site promocional Mahindra Racing"
+          descricaoProjeto="Site promocional desenvolvido para impulsionar a popularidade da Fórmula E no Brasil. Projeto feito como trabalho acadêmico em parceira com Mahindra Racing. Construido em React e TailwindCSS, com layout responsivo feito para desktops e dispositivos móveis."
           githubBotao={false}
-          githubLink="https://github.com/Berla1/landify-sass"
+          githubLink="https://github.com/E-fficency/mahindra"
           deployBotao={false}
-          deployLink="https://landify-woad.vercel.app"
-          tecnologia1={HTML5}
-          tecnologia2={SASS}
+          deployLink="https://e-fficency.github.io/mahindra/"
+          tecnologia1={React}
+          tecnologia2={TailwindCSS}
         />
 
         <CardProjeto
@@ -68,6 +70,17 @@ const Projetos = () => {
           deployLink="https://portfolio-git-main-berlas-projects.vercel.app"
           githubBotao={false}
           githubLink="https://github.com/Berla1/portfolio"
+        />
+        <CardProjeto
+          fotoProjeto={capaLandingPage}
+          nomeProjeto="Landing Page responsiva"
+          descricaoProjeto="Lading page responsiva construida em HTML5 e SCSS. Projeto oferecendo um design responsivo e moderno com vizualição em dispositivos móveis e desktops."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/landify-sass"
+          deployBotao={false}
+          deployLink="https://landify-woad.vercel.app"
+          tecnologia1={HTML5}
+          tecnologia2={SASS}
         />
       </div>
     </section>
