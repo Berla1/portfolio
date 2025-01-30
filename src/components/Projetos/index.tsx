@@ -8,6 +8,7 @@ import capaBuscador from "../../assets/imagens-projetos/capa-buscador-cep.svg";
 import capaRush from "../../assets/imagens-projetos/capa-rush.svg";
 import capaJavaCrud from "../../assets/imagens-projetos/capa-java-crud.svg";
 import capaTabelaFipe from "../../assets/imagens-projetos/capa-tabela-fipe.svg";
+import capaNumeroSecreto from "../../assets/imagens-projetos/capa-numero-secreto.svg";
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -15,8 +16,10 @@ import Python from "../../assets/tecnologias/logo-python.svg";
 import Java from "../../assets/tecnologias/logo-java.svg";
 import MySQL from "../../assets/tecnologias/logo-mysql.svg";
 import HTML5 from "../../assets/tecnologias/logo-html.svg";
+import CSS from "../../assets/tecnologias/logo-css.svg";
 import SASS from "../../assets/tecnologias/logo-sass.svg";
 import React from "../../assets/tecnologias/logo-react.svg";
+import JavaScript from "../../assets/tecnologias/logo-javascript.svg";
 
 const Projetos = () => {
   return (
@@ -114,6 +117,19 @@ const Projetos = () => {
           deployBotao={false}
           deployLink="https://busca-cep-khaki.vercel.app"
           tecnologia1={React}
+        />
+
+        <CardProjeto
+        fotoProjeto={capaNumeroSecreto}
+          nomeProjeto="Jogo número secreto"
+          descricaoProjeto="Um jogo de adivinhação onde o usuário tenta adivinhar um número aleatório entre 1 e 1000 usando comandos de voz. Construido em HTML, CSS e JavaScript, o jogo auxília o usuário indicando se ele está acima ou abaixo do número secreto."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/numero-secreto"
+          deployBotao={false}
+          deployLink="numero-secreto-steel-psi.vercel.app"
+          tecnologia1={JavaScript}
+          tecnologia2={HTML5}
+          tecnologia3={CSS}
         />
 
         <CardProjeto
