@@ -6,6 +6,8 @@ import capaLandingPage from "../../assets/imagens-projetos/capa-landing-page.svg
 import capaMahindra from "../../assets/imagens-projetos/capa-mahindra.svg";
 import capaBuscador from "../../assets/imagens-projetos/capa-buscador-cep.svg";
 import capaRush from "../../assets/imagens-projetos/capa-rush.svg";
+import capaJavaCrud from "../../assets/imagens-projetos/capa-java-crud.svg";
+import capaTabelaFipe from "../../assets/imagens-projetos/capa-tabela-fipe.svg";
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -73,6 +75,15 @@ const Projetos = () => {
         />
 
         <CardProjeto
+          fotoProjeto={capaTabelaFipe}
+          nomeProjeto="Tabela Fipe"
+          descricaoProjeto="Este projeto é uma aplicação Java que consome a API pública da Tabela Fipe para obter informações sobre marcas, modelos e preços de veículos no Brasil. Construida em Java utilizando Spring Boot."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/tabela-fipe"
+          tecnologia1={Java}
+        />
+
+        <CardProjeto
           fotoProjeto={capaPortfolio}
           nomeProjeto="Meu portfólio pessoal"
           descricaoProjeto="Portfólio desenvolvido com TypeScript e TailwindCSS. 
@@ -83,6 +94,15 @@ const Projetos = () => {
           deployLink="https://portfolio-git-main-berlas-projects.vercel.app"
           githubBotao={false}
           githubLink="https://github.com/Berla1/portfolio"
+        />
+
+        <CardProjeto
+          fotoProjeto={capaJavaCrud}
+          nomeProjeto="CRUD em Java"
+          descricaoProjeto="Um projeto Java que implementa operações básicas de CRUD (Create, Read, Update, Delete) utilizando um banco de dados MySQL. Este repositório é ideal para quem deseja aprender como manipular dados em Java com JDBC."
+          tecnologia1={Java}
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/java-CRUD"
         />
 
         <CardProjeto
