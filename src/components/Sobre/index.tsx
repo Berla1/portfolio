@@ -15,7 +15,7 @@ import curriculo from "../../assets/Currículo Gustavo Berlanga.pdf";
 
 const Sobre = () => {
   return (
-    <section className="flex h-screen text-white md:justify-evenly md:items-center md:gap-10 scroll-mt-[60px] md:scroll-mt-0" id="sobre">
+    <section className="flex h-screen text-white md:justify-evenly md:items-center md:gap-10 scroll-mt-[75px] md:scroll-mt-0" id="sobre">
       <div>
         <img src={pc} alt="eu" className="w-120 hidden md:block" />
       </div>

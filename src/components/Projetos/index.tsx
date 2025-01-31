@@ -59,7 +59,7 @@ const Projetos = () => {
         <CardProjeto
           fotoProjeto={capaMahindra}
           nomeProjeto="Site promocional Mahindra Racing"
-          descricaoProjeto="Site promocional desenvolvido para impulsionar a popularidade da Fórmula E no Brasil. Projeto feito como trabalho acadêmico em parceira com Mahindra Racing. Construido em React e TailwindCSS, com layout responsivo feito para desktops e dispositivos móveis."
+          descricaoProjeto="Site promocional desenvolvido para impulsionar a popularidade da Fórmula E no Brasil. Construido em React e TailwindCSS, com layout responsivo feito para desktops e dispositivos móveis. Projeto feito como trabalho acadêmico em parceira com Mahindra Racing. "
           githubBotao={false}
           githubLink="https://github.com/E-fficency/mahindra"
           deployBotao={false}
@@ -74,6 +74,8 @@ const Projetos = () => {
           descricaoProjeto="Aplicação web que exibe dados de séries cadastradas em um banco de dados PostgreSQL, as informações cadastradas são recebidas de uma API pública do OMDb. O foco do projeto foi no desenvolvimento da API REST em Java com Spring Boot."
           githubBotao={false}
           githubLink="https://github.com/Berla1/screen-match"
+          youtubeBotao={false} 
+          youtubeLink="https://youtu.be/AhSvJzG-f8o"
           tecnologia1={Java}
           tecnologia2={PostegreSQL}
         />
@@ -81,7 +83,7 @@ const Projetos = () => {
         <CardProjeto
           fotoProjeto={capaRush}
           nomeProjeto="Rush e-commerce"
-          descricaoProjeto="Uma aplicação de e-commerce voltada para artigos esportivos. Feito utilizando React utilizando styled-components, com layout responsivo e moderno. Realizado como projeto acadêmico."
+          descricaoProjeto="Uma aplicação de e-commerce voltada para artigos esportivos. Desenvolvido em React com styled-components, com layout responsivo e moderno. Realizado como projeto acadêmico."
           githubBotao={false}
           githubLink="https://github.com/E-fficency/rush"
           deployBotao={false}
@@ -95,6 +97,8 @@ const Projetos = () => {
           descricaoProjeto="Este projeto é uma aplicação Java que consome a API pública da Tabela Fipe para obter informações sobre marcas, modelos e preços de veículos no Brasil. Construida em Java utilizando Spring Boot."
           githubBotao={false}
           githubLink="https://github.com/Berla1/tabela-fipe"
+          youtubeBotao={false}
+          youtubeLink="https://youtu.be/IKf5vJVbh2Q"
           tecnologia1={Java}
         />
 
@@ -114,16 +118,18 @@ const Projetos = () => {
         <CardProjeto
           fotoProjeto={capaJavaCrud}
           nomeProjeto="CRUD em Java"
-          descricaoProjeto="Um projeto Java que implementa operações básicas de CRUD (Create, Read, Update, Delete) utilizando um banco de dados MySQL. Este repositório é ideal para quem deseja aprender como manipular dados em Java com JDBC."
+          descricaoProjeto="Um projeto Java que implementa operações básicas de CRUD (Create, Read, Update, Delete) utilizando um banco de dados MySQL."
           tecnologia1={Java}
           githubBotao={false}
           githubLink="https://github.com/Berla1/java-CRUD"
+          youtubeBotao={false}
+          youtubeLink="https://youtu.be/3qRkVMV7gA0"
         />
 
         <CardProjeto
           fotoProjeto={capaBuscador}
           nomeProjeto="Buscador de CEP"
-          descricaoProjeto="uma aplicação desenvolvida em React que permite aos usuários consultar informações de endereço a partir de um CEP fornecido. A aplicação consome APIs para obter dados como logradouro, bairro, cidade e estado relacionados ao CEP inserido. Além disso, valida o formato do CEP informado pelo usuário."
+          descricaoProjeto="Uma aplicação desenvolvida em React que permite aos usuários consultar informações de endereço a partir de um CEP fornecido. A aplicação consome uma API pública para obter dados como logradouro, bairro, cidade e estado relacionados ao CEP inserido. Além disso, valida o formato do CEP informado pelo usuário."
           githubBotao={false}
           githubLink="https://github.com/Berla1/busca-cep"
           deployBotao={false}
