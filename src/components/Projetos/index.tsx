@@ -9,6 +9,7 @@ import capaRush from "../../assets/imagens-projetos/capa-rush.svg";
 import capaJavaCrud from "../../assets/imagens-projetos/capa-java-crud.svg";
 import capaTabelaFipe from "../../assets/imagens-projetos/capa-tabela-fipe.svg";
 import capaNumeroSecreto from "../../assets/imagens-projetos/capa-numero-secreto.svg";
+import capaScreenMatch from '../../assets/imagens-projetos/capa-screen-match.svg';
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -20,6 +21,7 @@ import CSS from "../../assets/tecnologias/logo-css.svg";
 import SASS from "../../assets/tecnologias/logo-sass.svg";
 import React from "../../assets/tecnologias/logo-react.svg";
 import JavaScript from "../../assets/tecnologias/logo-javascript.svg";
+import PostegreSQL from "../../assets/tecnologias/logo-postgresql.svg";
 
 const Projetos = () => {
   return (
@@ -64,6 +66,16 @@ const Projetos = () => {
           deployLink="https://e-fficency.github.io/mahindra/"
           tecnologia1={React}
           tecnologia2={TailwindCSS}
+        />
+
+        <CardProjeto 
+          fotoProjeto={capaScreenMatch}
+          nomeProjeto="Screen Match"
+          descricaoProjeto="Aplicação web que exibe dados de séries cadastradas em um banco de dados PostgreSQL, as informações cadastradas são recebidas de uma API pública do OMDb. O foco do projeto foi no desenvolvimento da API REST em Java com Spring Boot."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/screen-match"
+          tecnologia1={Java}
+          tecnologia2={PostegreSQL}
         />
 
         <CardProjeto
