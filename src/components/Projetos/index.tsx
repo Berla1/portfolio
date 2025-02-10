@@ -10,6 +10,7 @@ import capaJavaCrud from "../../assets/imagens-projetos/capa-java-crud.svg";
 import capaTabelaFipe from "../../assets/imagens-projetos/capa-tabela-fipe.svg";
 import capaNumeroSecreto from "../../assets/imagens-projetos/capa-numero-secreto.svg";
 import capaScreenMatch from '../../assets/imagens-projetos/capa-screen-match.svg';
+import capaMemoteca from '../../assets/imagens-projetos/capa-memoteca.svg'
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -22,6 +23,7 @@ import SASS from "../../assets/tecnologias/logo-sass.svg";
 import React from "../../assets/tecnologias/logo-react.svg";
 import JavaScript from "../../assets/tecnologias/logo-javascript.svg";
 import PostegreSQL from "../../assets/tecnologias/logo-postgresql.svg";
+import Angular from "../../assets/tecnologias/logo-angular.svg";
 
 const Projetos = () => {
   return (
@@ -78,6 +80,20 @@ const Projetos = () => {
           youtubeLink="https://youtu.be/AhSvJzG-f8o"
           tecnologia1={Java}
           tecnologia2={PostegreSQL}
+        />
+
+        <CardProjeto 
+          fotoProjeto={capaMemoteca}
+          nomeProjeto="Memoteca"
+          descricaoProjeto="A Memoteca é uma aplicação desenvolvida em Angular para gerenciar pensamentos, permitindo criar, visualizar, editar e excluir registros. O projeto consome um back-end falso utilizando json-server para simular uma API REST. A aplicação foi construída com TypeScript para maior segurança no código, além de HTML5 e CSS3 para estruturação e estilização da interface"
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/memoteca"
+          deployBotao={false}
+          deployLink="https://memoteca-eta.vercel.app"
+          tecnologia1={Angular}
+          tecnologia2={TypeScript}
+          tecnologia3={HTML5}
+          tecnologia4={CSS}
         />
 
         <CardProjeto
