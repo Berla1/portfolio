@@ -23,8 +23,8 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="flex items-center justify-center bg-gradient-to-t from-gray-600 rounded-3xl  md:w-100">
-        <img src={eu} alt="eu" className="rounded-3xl" />
+      <div className="flex items-center justify-center bg-gradient-to-tr from-gray-600 rounded-3xl  md:w-100">
+        <img src={eu} alt="eu" className="rounded-4xl" />
       </div>
     </section>
   );
