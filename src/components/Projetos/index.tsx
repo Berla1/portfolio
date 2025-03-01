@@ -158,7 +158,7 @@ const Projetos = () => {
           nomeProjeto="Jogo número secreto"
           descricaoProjeto="Um jogo de adivinhação onde o usuário tenta adivinhar um número aleatório entre 1 e 1000 usando comandos de voz. Construido em HTML, CSS e JavaScript, o jogo auxília o usuário indicando se ele está acima ou abaixo do número secreto."
           githubBotao={false}
-          githubLink="https://github.com/Berla1/numero-secreto"
+          githubLink="https://numero-secreto-steel-psi.vercel.app"
           deployBotao={false}
           deployLink="numero-secreto-steel-psi.vercel.app"
           tecnologia1={JavaScript}
