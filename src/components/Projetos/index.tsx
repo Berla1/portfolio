@@ -11,6 +11,7 @@ import capaTabelaFipe from "../../assets/imagens-projetos/capa-tabela-fipe.svg";
 import capaNumeroSecreto from "../../assets/imagens-projetos/capa-numero-secreto.svg";
 import capaScreenMatch from '../../assets/imagens-projetos/capa-screen-match.svg';
 import capaMemoteca from '../../assets/imagens-projetos/capa-memoteca.svg'
+import capaRickAndMorty from '../../assets/imagens-projetos/capa-ricky-and-morty.svg'
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -80,6 +81,18 @@ const Projetos = () => {
           youtubeLink="https://youtu.be/AhSvJzG-f8o"
           tecnologia1={Java}
           tecnologia2={PostegreSQL}
+        />
+
+        <CardProjeto
+          fotoProjeto={capaRickAndMorty}
+          nomeProjeto="Ricky and Morty API"
+          descricaoProjeto="Aplicação web que exibe dados sobre episódios, personagens e locais do seriado Rick and Morty, consumindo informações da API pública Rick and Morty API. O projeto foi desenvolvido utilizando TypeScript e estilizado com Tailwind CSS, proporcionando uma interface responsiva e intuitiva."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/rick-and-morty"
+          deployBotao={false}
+          deployLink="https://rick-and-morty-ruddy-kappa.vercel.app"
+          tecnologia1={TypeScript}
+          tecnologia2={TailwindCSS}
         />
 
         <CardProjeto 
