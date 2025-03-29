@@ -9,6 +9,7 @@ import Python from "../../assets/tecnologias/logo-python.svg";
 import Tailwind from "../../assets/tecnologias/logo-tailwind.svg";
 import HTML from "../../assets/tecnologias/logo-html.svg";
 import CSS from "../../assets/tecnologias/logo-css.svg";
+import NodeJS from "../../assets/tecnologias/logo-nodejs.svg";
 import RedeBotao from "../Home/RedeBotao";
 import { GoArrowUpRight } from "react-icons/go";
 import curriculo from "../../assets/Currículo Gustavo Berlanga.pdf";
@@ -47,6 +48,9 @@ const Sobre = () => {
             </li>
             <li>
               <Tecnologia imageSrc={JavaScript} altText="JavaScript" toolTip="JavaScript"/>
+            </li>
+            <li>
+              <Tecnologia imageSrc={NodeJS} altText="Nodejs" toolTip="Nodejs"/>
             </li>
             <li>
               <Tecnologia imageSrc={HTML} altText="HTML" toolTip="HTML"/>

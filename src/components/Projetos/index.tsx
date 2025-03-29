@@ -12,6 +12,7 @@ import capaNumeroSecreto from "../../assets/imagens-projetos/capa-numero-secreto
 import capaScreenMatch from '../../assets/imagens-projetos/capa-screen-match.svg';
 import capaMemoteca from '../../assets/imagens-projetos/capa-memoteca.svg'
 import capaRickAndMorty from '../../assets/imagens-projetos/capa-ricky-and-morty.svg'
+import capaFlexMedia from '../../assets/imagens-projetos/capa-flex-media.svg'
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -25,6 +26,7 @@ import React from "../../assets/tecnologias/logo-react.svg";
 import JavaScript from "../../assets/tecnologias/logo-javascript.svg";
 import PostegreSQL from "../../assets/tecnologias/logo-postgresql.svg";
 import Angular from "../../assets/tecnologias/logo-angular.svg";
+import NodeJS from "../../assets/tecnologias/logo-nodejs.svg";
 
 const Projetos = () => {
   return (
@@ -93,6 +95,19 @@ const Projetos = () => {
           deployLink="https://rick-and-morty-ruddy-kappa.vercel.app"
           tecnologia1={TypeScript}
           tecnologia2={TailwindCSS}
+        />
+
+        <CardProjeto
+          fotoProjeto={capaFlexMedia}
+          nomeProjeto="Teste Flexmedia"
+          descricaoProjeto="Flex Media é uma aplicação web desenvolvida em React que consome uma API desenvolvida em Nodejs e MongoDB. O projeto foi construído utilizando TypeScript e estilizado com Tailwind CSS, proporcionando uma interface responsiva e moderna. O projeto é um teste prático para a empresa Flex Media."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/flexmedia-teste"
+          youtubeBotao={false}
+          youtubeLink="https://youtu.be/8mrBO68lY6A"
+          tecnologia1={React}
+          tecnologia2={TailwindCSS}
+          tecnologia3={NodeJS}
         />
 
         <CardProjeto 
