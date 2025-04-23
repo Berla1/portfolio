@@ -49,9 +49,7 @@ const Sobre = () => {
             <li>
               <Tecnologia imageSrc={JavaScript} altText="JavaScript" toolTip="JavaScript"/>
             </li>
-            <li>
-              <Tecnologia imageSrc={NodeJS} altText="Nodejs" toolTip="Nodejs"/>
-            </li>
+
             <li>
               <Tecnologia imageSrc={HTML} altText="HTML" toolTip="HTML"/>
             </li>
