@@ -9,10 +9,11 @@ import capaRush from "../../assets/imagens-projetos/capa-rush.svg";
 import capaJavaCrud from "../../assets/imagens-projetos/capa-java-crud.svg";
 import capaTabelaFipe from "../../assets/imagens-projetos/capa-tabela-fipe.svg";
 import capaNumeroSecreto from "../../assets/imagens-projetos/capa-numero-secreto.svg";
-import capaScreenMatch from '../../assets/imagens-projetos/capa-screen-match.svg';
-import capaMemoteca from '../../assets/imagens-projetos/capa-memoteca.svg'
-import capaRickAndMorty from '../../assets/imagens-projetos/capa-ricky-and-morty.svg'
-import capaFlexMedia from '../../assets/imagens-projetos/capa-flex-media.svg'
+import capaScreenMatch from "../../assets/imagens-projetos/capa-screen-match.svg";
+import capaMemoteca from "../../assets/imagens-projetos/capa-memoteca.svg";
+import capaRickAndMorty from "../../assets/imagens-projetos/capa-ricky-and-morty.svg";
+import capaFlexMedia from "../../assets/imagens-projetos/capa-flex-media.svg";
+import capaEncurtaUrl from "../../assets/imagens-projetos/capa-encurtador-url.svg";
 import CMais from "../../assets/tecnologias/logo-c++.svg";
 import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import TailwindCSS from "../../assets/tecnologias/logo-tailwind.svg";
@@ -27,6 +28,7 @@ import JavaScript from "../../assets/tecnologias/logo-javascript.svg";
 import PostegreSQL from "../../assets/tecnologias/logo-postgresql.svg";
 import Angular from "../../assets/tecnologias/logo-angular.svg";
 import NodeJS from "../../assets/tecnologias/logo-nodejs.svg";
+import Mongo from "../../assets/tecnologias/logo-mongo.svg";
 
 const Projetos = () => {
   return (
@@ -73,13 +75,13 @@ const Projetos = () => {
           tecnologia2={TailwindCSS}
         />
 
-        <CardProjeto 
+        <CardProjeto
           fotoProjeto={capaScreenMatch}
           nomeProjeto="Screen Match"
           descricaoProjeto="Aplicação web que exibe dados de séries cadastradas em um banco de dados PostgreSQL, as informações cadastradas são recebidas de uma API pública do OMDb. O foco do projeto foi no desenvolvimento da API REST em Java com Spring Boot."
           githubBotao={false}
           githubLink="https://github.com/Berla1/screen-match"
-          youtubeBotao={false} 
+          youtubeBotao={false}
           youtubeLink="https://youtu.be/AhSvJzG-f8o"
           tecnologia1={Java}
           tecnologia2={PostegreSQL}
@@ -108,9 +110,22 @@ const Projetos = () => {
           tecnologia1={React}
           tecnologia2={TailwindCSS}
           tecnologia3={NodeJS}
+          tecnologia4={Mongo}
         />
 
-        <CardProjeto 
+        <CardProjeto
+          fotoProjeto={capaEncurtaUrl}
+          nomeProjeto="Encurtador de URL"
+          descricaoProjeto="Projeto desenvolvido em Java com MongoDB que gera links curtos a partir de URLs longas. Cada link encurtado expira automaticamente após 1 minuto, garantindo maior segurança e controle de acesso. Ideal para aplicações temporárias e compartilhamento rápido."
+          githubBotao={false}
+          githubLink="https://github.com/Berla1/encurtador-url"
+          youtubeBotao={false}
+          youtubeLink="https://youtu.be/vSWutjzaDU0"
+          tecnologia1={Java}
+          tecnologia2={Mongo}
+        />
+
+        <CardProjeto
           fotoProjeto={capaMemoteca}
           nomeProjeto="Memoteca"
           descricaoProjeto="A Memoteca é uma aplicação desenvolvida em Angular para gerenciar pensamentos, permitindo criar, visualizar, editar e excluir registros. O projeto consome um back-end falso utilizando json-server para simular uma API REST. A aplicação foi construída com TypeScript para maior segurança no código, além de HTML5 e CSS3 para estruturação e estilização da interface"
@@ -182,7 +197,7 @@ const Projetos = () => {
         />
 
         <CardProjeto
-        fotoProjeto={capaNumeroSecreto}
+          fotoProjeto={capaNumeroSecreto}
           nomeProjeto="Jogo número secreto"
           descricaoProjeto="Um jogo de adivinhação onde o usuário tenta adivinhar um número aleatório entre 1 e 1000 usando comandos de voz. Construido em HTML, CSS e JavaScript, o jogo auxília o usuário indicando se ele está acima ou abaixo do número secreto."
           githubBotao={false}

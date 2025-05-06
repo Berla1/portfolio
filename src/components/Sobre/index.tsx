@@ -7,9 +7,8 @@ import Java from "../../assets/tecnologias/logo-java.svg";
 import MySQL from "../../assets/tecnologias/logo-mysql.svg";
 import Python from "../../assets/tecnologias/logo-python.svg";
 import Tailwind from "../../assets/tecnologias/logo-tailwind.svg";
-import HTML from "../../assets/tecnologias/logo-html.svg";
-import CSS from "../../assets/tecnologias/logo-css.svg";
-import NodeJS from "../../assets/tecnologias/logo-nodejs.svg";
+import Mongo from "../../assets/tecnologias/logo-mongo.svg";
+import PostegreSQL from "../../assets/tecnologias/logo-postgresql.svg";
 import RedeBotao from "../Home/RedeBotao";
 import { GoArrowUpRight } from "react-icons/go";
 import curriculo from "../../assets/Currículo Gustavo Berlanga.pdf";
@@ -44,18 +43,17 @@ const Sobre = () => {
               <Tecnologia imageSrc={MySQL} altText="MySQL" toolTip="MySQL"/>
             </li>
             <li>
+              <Tecnologia imageSrc={PostegreSQL} altText="PostgreSQL" toolTip="PostgreSQL"/>
+            </li>
+            <li>
+              <Tecnologia imageSrc={Mongo} altText="MongoDB" toolTip="MongoDB"/>
+            </li>
+            <li>
               <Tecnologia imageSrc={Python} altText="Python" toolTip="Python"/>
             </li>
             <li>
               <Tecnologia imageSrc={JavaScript} altText="JavaScript" toolTip="JavaScript"/>
-            </li>
-
-            <li>
-              <Tecnologia imageSrc={HTML} altText="HTML" toolTip="HTML"/>
-            </li>
-            <li>
-              <Tecnologia imageSrc={CSS} altText="CSS" toolTip="CSS"/>
-            </li>
+            </li>awd
             <li>
               <Tecnologia imageSrc={Tailwind} altText="Tailwind" toolTip="Tailwind"/>
             </li>
