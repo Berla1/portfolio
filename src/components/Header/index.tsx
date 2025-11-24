@@ -5,6 +5,7 @@ const Header = () => {
         <ul className="flex gap-5 py-6 md:py-8 text-white">
           <a href="#home"><li className="links cursor-pointer">Home</li></a>
           <a href="#sobre"><li className="links cursor-pointer">Sobre</li></a>
+          <a href="#experiencia"><li className="links cursor-pointer">Experiência</li></a>
           <a href="#projetos"><li className="links cursor-pointer">Projetos</li></a>
         </ul>
       </nav>

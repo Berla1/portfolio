@@ -22,22 +22,19 @@ const Sobre = () => {
       <div className="flex flex-col md:w-1/2">
         <h2 className="text-4xl md:text-6xl mb-10">Sobre</h2>
         <p className="text-xl font-light text-white ">
-          Sou um estudante com 19 anos em busca de uma primeira experiência
-          profissional no mercado de trabalho. No 3º período de Engenharia de
-          Software na FIAP. Tive o meu primeiro contato com programação em 2019,
-          desde então busco evoluir meus conhecimentos técnicos.
+          Sou um estudante de Engenharia de Software na FIAP, atualmente com 19 anos, e busco continuar evoluindo profissionalmente na área de tecnologia. Tive meu primeiro contato com programação em 2019 e, desde então, venho aprimorando minhas habilidades técnicas por meio de projetos acadêmicos, pessoais e da minha experiência como estagiário no Banco Santander, onde pude desenvolver soluções e apoiar processos estratégicos.
         </p>
         <div>
           <h3 className="my-3">Minhas tecnologias: </h3>
           <ul className="flex items-center justify-start gap-5 flex-wrap mb-8">
             <li>
+              <Tecnologia imageSrc={Java} altText="Java" toolTip="Java"/>
+            </li>
+            <li>
               <Tecnologia imageSrc={TypeScript} altText="Typescript" toolTip="Typescript"/>
             </li>
             <li>
               <Tecnologia imageSrc={React} altText="React" toolTip="React"/>
-            </li>
-            <li>
-              <Tecnologia imageSrc={Java} altText="Java" toolTip="Java"/>
             </li>
             <li>
               <Tecnologia imageSrc={MySQL} altText="MySQL" toolTip="MySQL"/>
@@ -53,7 +50,7 @@ const Sobre = () => {
             </li>
             <li>
               <Tecnologia imageSrc={JavaScript} altText="JavaScript" toolTip="JavaScript"/>
-            </li>awd
+            </li>
             <li>
               <Tecnologia imageSrc={Tailwind} altText="Tailwind" toolTip="Tailwind"/>
             </li>
