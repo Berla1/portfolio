@@ -4,6 +4,7 @@ import TypeScript from "../../assets/tecnologias/logo-typescript.svg";
 import JavaScript from "../../assets/tecnologias/logo-javascript.svg";
 import React from "../../assets/tecnologias/logo-react.svg";
 import Java from "../../assets/tecnologias/logo-java.svg";
+import SpringBoot from "../../assets/tecnologias/logo-spring-boot.svg"
 import MySQL from "../../assets/tecnologias/logo-mysql.svg";
 import Python from "../../assets/tecnologias/logo-python.svg";
 import Tailwind from "../../assets/tecnologias/logo-tailwind.svg";
@@ -29,6 +30,9 @@ const Sobre = () => {
           <ul className="flex items-center justify-start gap-5 flex-wrap mb-8">
             <li>
               <Tecnologia imageSrc={Java} altText="Java" toolTip="Java"/>
+            </li>
+            <li>
+              <Tecnologia imageSrc={SpringBoot} altText="Spring Boot" toolTip="Spring Boot"/>
             </li>
             <li>
               <Tecnologia imageSrc={TypeScript} altText="Typescript" toolTip="Typescript"/>
