@@ -1,5 +1,5 @@
 import CardProjeto from "./CardProjeto";
-import capaPortfolio from "../../assets/imagens-projetos/capa-portfolio.svg";
+import capaPortfolio from "../../assets/imagens-projetos/capa-portfolio.png";
 import capaCarrinho from "../../assets/imagens-projetos/capa-carrinho-iot.svg";
 import capaCardapio from "../..//assets/imagens-projetos/capa-cardapio.svg";
 import capaLandingPage from "../../assets/imagens-projetos/capa-landing-page.svg";
